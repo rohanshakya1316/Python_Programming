@@ -10,6 +10,7 @@ student = {
 
 # Original Dictionary 
 print("Original Dictionary: \n", student)
+print("Length: ", len(student))
 
 # 1. keys() = returns a list containing dictionary's keys
 print("Keys():", student.keys())
