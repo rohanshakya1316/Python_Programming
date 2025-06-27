@@ -7,6 +7,10 @@
 #     "key2": "value2"
 # }
 
+# Empty dictionary 
+empty_dictionary = {}
+print(type(empty_dictionary))
+
 
 dict_marks = {
     "Rohan": 90, 
