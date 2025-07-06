@@ -26,3 +26,5 @@ Unit - 6 ==> Looping Statments and its types including various use cases and sce
 Unit - 7 ==> Functions and Recursion Detail Overview - Different types of arguments to be passed in the function and recursion explanation. 
 
 Unit - 8 ==> Introduction to File Handling in Python - Creating, Accessing, and Manipulating File 
+
+Unit - 9 ==> Introduction to Object Oriented Programming in Python - Classes, Objects and Accessing class & object attributes. Also, include self parameter and static method. 
