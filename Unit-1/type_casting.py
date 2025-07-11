@@ -3,7 +3,7 @@
 a = 10 
 b = float(a)
 typeName = type(a) # <class 'int'
-typeName = type(b) # <class 'flaot'
+typeName = type(b) # <class 'float'
 print(typeName)
 
 print("========== 1. Implicit Type Casting ==========")
