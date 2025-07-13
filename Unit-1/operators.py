@@ -64,6 +64,11 @@ print("x is y:", x is y)         # True, same object
 print("x is z:", x is z)         # False, different object
 print("x is not z:", x is not z)
 
+a = 257
+b = 257 
+print(a is b)   # True
+print(a is not b)   # False
+
 print("\n========== 7. Membership Operators ==========")
 fruits = ["apple", "banana", "cherry"]
 print("'apple' in fruits:", 'apple' in fruits)
