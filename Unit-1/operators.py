@@ -74,6 +74,9 @@ fruits = ["apple", "banana", "cherry"]
 print("'apple' in fruits:", 'apple' in fruits)
 print("'mango' not in fruits:", 'mango' not in fruits)
 
+word = "Today is rainy day."
+print('Today' in word)  # True
+
 print("\n========== 8. Ternary Operator (Conditional Expression) ==========")
 a = 10
 b = 20
