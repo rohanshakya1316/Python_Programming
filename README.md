@@ -28,3 +28,5 @@ Unit - 7 ==> Functions and Recursion Detail Overview - Different types of argume
 Unit - 8 ==> Introduction to File Handling in Python - Creating, Accessing, and Manipulating File 
 
 Unit - 9 ==> Introduction to Object Oriented Programming in Python - Classes, Objects, Constructors and Accessing class & object attributes. Also, include self parameter and static method. 
+
+Decorators ==> Introduction to Python Decorators and various dunder methods for operator overloading.
