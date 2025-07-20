@@ -29,4 +29,6 @@ Unit - 8 ==> Introduction to File Handling in Python - Creating, Accessing, and 
 
 Unit - 9 ==> Introduction to Object Oriented Programming in Python - Classes, Objects, Constructors and Accessing class & object attributes. Also, include self parameter and static method. 
 
+Unit - 10 ==> Introduction to Inheritance and its various types with constructor inheritance using super() method.
+
 Decorators ==> Introduction to Python Decorators and various dunder methods for operator overloading.
