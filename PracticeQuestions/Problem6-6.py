@@ -9,20 +9,39 @@ following scheme:
 
 marks = float(input("Enter your marks: "))
 
-if marks >= 90 and marks <= 100:
+# if marks >= 90 and marks <= 100:
+#     print("Excellent grade!")
+
+# elif marks >= 80 and marks < 90: 
+#     print("A grade!")
+
+# elif marks >= 70 and marks < 80: 
+#     print("B grade!")
+
+# elif marks >= 60 and marks < 70: 
+#     print("C grade!")
+
+# elif marks >= 50 and marks < 60: 
+#     print("D grade!")
+
+# elif marks < 50: 
+#     print("F grade!")
+
+
+if marks >= 90:
     print("Excellent grade!")
 
-elif marks >= 80 and marks < 90: 
+elif marks >= 80:
     print("A grade!")
 
-elif marks >= 70 and marks < 80: 
+elif marks >= 70:
     print("B grade!")
 
-elif marks >= 60 and marks < 70: 
+elif marks >= 60:
     print("C grade!")
 
-elif marks >= 50 and marks < 60: 
+elif marks >= 50:
     print("D grade!")
 
-elif marks < 50: 
-    print("A grade!")
+else:
+    print("F grade!")
