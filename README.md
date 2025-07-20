@@ -9,6 +9,8 @@ Remarks: PracticeQuestions folder doesnot contain exercises related to Unit - 0,
 
 Project - I ==> Snake, Water and Gun Game (Logic: Simple, Complex, Shorter Version--Unreliable[Logic Analysis])
 
+Project - II ==> The Perfect Guess Game (Logic: Simple, and with input validation)
+
 Unit - 0 ==> Introduction to Python, pip command and module discussion. 
 
 Unit - 1 ==> Variables, Typecasting, Various operators and input() function. 
