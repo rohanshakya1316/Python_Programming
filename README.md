@@ -34,3 +34,5 @@ Unit - 9 ==> Introduction to Object Oriented Programming in Python - Classes, Ob
 Unit - 10 ==> Introduction to Inheritance and its various types with constructor inheritance using super() method.
 
 Decorators ==> Introduction to Python Decorators and various dunder methods for operator overloading.
+
+Advance-Python ==> Exception Handling in Python with try...catch..else..finally blocks, modules & importing it and new features in Python. 
