@@ -1,3 +1,5 @@
+# A exception handling python program that includes all the concepts.  
+
 class CustomError(Exception):
     pass
 
