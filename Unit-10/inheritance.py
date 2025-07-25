@@ -27,3 +27,14 @@ obj2.eat()
 obj2.talk()
 
 # We can overwrite or add new attributes and methods in ‘Human’ class. 
+class A:
+    def greet(self):
+        print("Hello from A")
+
+class B(A):
+    def greet(self):
+        print("Hello from B")  # overrides A
+a = A()
+b = B()
+a.greet()  # Output: Hello from A
+b.greet()  # Output: Hello from B
