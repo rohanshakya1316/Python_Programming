@@ -1,0 +1,61 @@
+What is Abstraction? 
+
+Abstraction is the process of hiding the internal implementation details and showing only the essential features of an object or system. 
+
+The purposes of the Abstraction are 
+-> Hide Complexity
+-> Expose only the relevant functionalities 
+-> Improve code readability, reusuability, and maintainability
+--------------------------------------------------------------------------------------------------------
+
+ANALOGY
+Think of a car: 
+-> We use the steering wheel, pedals, and gear - but donot care about how the engine works internally. 
+-> This is Abstraction: using a simplified interface without needing to know the inner complexity. 
+--------------------------------------------------------------------------------------------------------
+
+Abstraction in Python
+
+Python provides abstraction using: 
+1. Abstract Base Classes (ABCs)
+2. The abc module (Abstract Base Classes)
+--------------------------------------------------------------------------------------------------------
+
+Using the abc Module 
+
+To implement abstraction:
+-> Use the ABC class from abc module 
+-> Use the @abstractmethod decorator for methods that must be overridden in child Classes
+--------------------------------------------------------------------------------------------------------
+
+Rules of Abstraction in Python
+
+Rule	                        Description
+ABC class	            Every abstract class must inherit from ABC
+@abstractmethod	        Declares a method that must be implemented by subclass
+No direct object	    Cannot instantiate an abstract class directly
+Mixed methods	        Abstract classes can have concrete methods too
+--------------------------------------------------------------------------------------------------------
+
+When to use Abstraction? 
+
+-> To define a common interface for a group of subclasses 
+-> When the base class should not be instantiated
+-> When enforcing a contract: "Every subclass must implement these methods".
+--------------------------------------------------------------------------------------------------------
+
+Benefits of Abstraction
+
+-> Cleaner and more organized code
+-> Reduces duplication
+-> Enhances flexibility and scalability
+-> Makes code easier to manage in large systems
+--------------------------------------------------------------------------------------------------------
+
+Abstraction VS Encapsulation 
+Feature	                Abstraction	                                Encapsulation
+Purpose	        Hides implementation complexity	            Hides data/internal state
+Focus	        What an object does	                        How an object stores data
+Achieved by	    Abstract classes/interfaces	                Access modifiers (public/private)
+Example	        @abstractmethod in ABC class	            __private_var or getter/setters
+--------------------------------------------------------------------------------------------------------
