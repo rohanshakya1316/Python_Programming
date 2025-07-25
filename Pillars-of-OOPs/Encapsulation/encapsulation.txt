@@ -1,0 +1,20 @@
+What is Encapsulation? 
+
+Encapsulation means hiding the internal state of an object and requiring all interaction to be performed through an object's methods. 
+
+This provides a controlled interface and protects the object from unintended interference and misuse. 
+-------------------------------------------------------------------------------------------------------------
+Why use Encapsulation? 
+
+Prevents external interference.
+Maintains control over the data.
+Enhances security and robustness. 
+Easier code maintenance and debugging. 
+--------------------------------------------------------------------------------------------------------------
+How Encapsulation is done in Python? 
+Python doesn't have strict access modifiers like private, protected, and public in languages like Java or C++. But it provides conventions and name mangling to simulate them.
+
+Visibility	        Syntax	        Accessible From
+Public	            var	            Anywhere
+Protected	        _var	        Class & Subclass (by convention)
+Private	            __var	        Only within the class (name mangled)
