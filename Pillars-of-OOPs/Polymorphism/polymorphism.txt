@@ -1,0 +1,19 @@
+What is Polymorphism? 
+
+Polymorphism means "many forms". It allows objects of different classes to be treated as objects of a common super class, typically when they share a common interface or method name.
+--------------------------------------------------------------------------------------------------------
+
+Why Use Polymorphism? 
+
+-> Makes code flexible, reusable, and maintainable
+-> Allows different object types to be used interchangeably
+-> Supports extensibility: add new types with minimal code changes
+--------------------------------------------------------------------------------------------------------
+
+Types of Polymorphism in Python 
+
+Type	                                            Description
+Duck Typing	                Python’s dynamic typing allows any object to be used if it behaves correctly
+Method Overriding	        Subclass provides specific implementation of a parent class method
+Operator Overloading	    Changing how operators work for user-defined classes
+--------------------------------------------------------------------------------------------------------
